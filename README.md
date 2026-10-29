@@ -1,6 +1,6 @@
 # DR-Grading-classification-and-explainability-
-Clinically Explainable AI for Diabetic Retinopathy Grading_
-**Project Overview**
+Clinically Explainable AI for Diabetic Retinopathy Grading <br />
+**Project Overview** <br />
 This project uses a deep learning model based on EfficientNet-B0 to classify color fundus photographs (CFP) into five diabetic retinopathy (DR) grades:
 •	Grade 0: No DR
 •	Grade 1: Mild DR
