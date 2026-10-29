@@ -52,8 +52,9 @@ The project supports two image explanation methods:<br />
 •	Grad-CAM: Highlights broad image regions that influence the model's prediction.<br />
 •	LIME: Estimates how selected image regions contribute to the predicted class.<br />
 The outputs can be visualized alongside the original retinal image to help inspect the model's behavior.<br />
-An optional local Llama model can summarize structured information from the prediction, class probabilities, and explanation outputs. The language model does not directly analyze the retinal image in this setup.<br />
-<img width="1500" height="488" alt="image" src="https://github.com/user-attachments/assets/ff4c98e6-f54a-4102-81bf-001cbdac40ac" /><br />
+An local Llama model can summarize structured information from the prediction, class probabilities, and explanation outputs. <br />
+<img width="1127" height="784" alt="image" src="https://github.com/user-attachments/assets/9ace0620-b837-4a23-8e28-24bf2d6e3610" />
+ /><br />
 **Limitations**<br />
 The model may confuse neighboring DR grades, particularly mild and moderate cases. Its performance depends on dataset quality, class distribution, preprocessing, and generalization to new data.
 Grad-CAM and LIME provide model explanations but do not prove that the model uses medically correct features. The system requires further validation before any clinical use.
